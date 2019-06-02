@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/yutayouguan/TheWeb3D/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yutayouguan/TheWeb3D/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+这是一个基于现代浏览器中CSS3转换和转换功能的演示框架，
+并受到prezi.com背后的想法的启发。 
+**警告**如果您没有什么有趣的话，impress.js可能无法帮助您;）
+如何使用它--------------- [使用来源]（index.html） ，Luke;）
+[HTML源代码]（index.html）作为一个很好的示例用法，
+包含解释impress.js的各种功能的注释。
+有关样式的更多信息，
+您可以查看[CSS code]（css / impress-demo.css）
+，它显示了impress.js提供的类是如何使用的。最后但并非最不重要的[impress.js的JavaScript代码]
+（js / impress.js）有一些有用的注释，如果你对一切如何工作感兴趣。
+随意探索！如果您想要所有impress.js功能和API的更直接的参考文档，
+可以在[DOCUMENTATION.md]
+（DOCUMENTATION.md）中找到它。 
+实例和其他学习资源--------------------------------------- 
+###官方演示[ [@bartaz]（https://yutayouguan.github.io/TheWeb3D/）
+###示例和演示在[示例和演示维基页面]（http://github.com/impress/impress.js/wiki/Examples-and-demos）上。
+随意添加您自己的示例演示文稿（或网站）。
+ ###其他教程和学习资源如果你想学习更多，
+ 有[教程列表和其他学习资源]（https://github.com/impress/impress.js/wiki/impress.js-tutorials-维基上也有其他学习资源。 
+ Rakhitha Nimesh Ratnayake还提供了一本关于[用impress.js构建令人印象深刻的演示文稿]的书
+ （http://www.packtpub.com/building-impressive-presentations-with-impressjs/book）。想要贡献？ ---------------------请阅读[贡献指南]（。github / CONTRIBUTING.md）如何创建 
+ [问题]（。github / CONTRIBUTING.md＃issues）和[Pull Requests]（。github / CONTRIBUTING.md #draw-requests）。
+  **注意：**团队已经改变，因此即将推出的版本会有很多变化。如果您需要有关版本的信息，请查看[changelog]（CHANGELOG.md）。
+  关于这个名字---------------- impress.js名字来自[@skuzniak]（http://twitter.com/skuzniak/status/143627215165333504）。
+   Open / LibreOffice演示工具名为Impress是一个（非）幸运的巧合;）
+   参考API --------------参见[参考API]（DOCUMENTATION.md）
+   浏览器支持 - ---------------
+   此项目仅支持已实现的主要[evergreen]（http://eisenbergeffect.bluespire.com/evergreen-browsers/）
+   桌面浏览器：* [DataSet API ]（http://caniuse.com/#search=dataset）*
+   

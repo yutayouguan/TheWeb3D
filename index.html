@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html lang="ch">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>TheWeb3D</title>
+    
+    <meta name="description" content="impress.js 是一个基于现代浏览器中CSS3转换和转换功能的演示工具，并受到prezi.com背后的想法的启发" />
+    <meta name="author" content="wangmeng" />
+
+    
+    
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    
+    <link rel="shortcut icon" href="image/rz.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+   <style>
+ 
+body {
+	margin: 0;
+	background: transparent;
+}
+video {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	background: url('image/绿野.png') no-repeat;
+	background-size: cover;
+}
+	</style>
+</head>
+
+<body>
+
+<video autoplay loop poster="image/绿野.png" id="bgvideo">
+<source src="video/绿野.webm" type="video/webm">
+<source src="video/绿野.mov" type="video/mp4">
+</video>
+
+
+<div class="fallback-message">
+    <p>你的浏览器 <b>不支持所需的功能</b> 通过impress.js，您将看到此演示文稿的简化版本。</p>
+    <p>为了获得最佳体验，请使用最新的 <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> 浏览器。</p>
+</div>
+
+
+
+
+
+
+
+
+
+<div id="impress">
+
+  
+    <div id="bored" class="step slide" data-x="-1000" data-y="-1500"  data-scale="1"><q font-size:20px>人生一世，就好比是一次搭车旅行，要经历无数次上车、下车; 时常有事故发生; 有时是意外惊喜，有时却是刻骨铭心的悲伤……</q></div>
+
+    
+    <div class="step slide" data-x="0" data-y="-1500"><q font-size:20px>降生人世，我们就坐上了生命列车。我们以为我们最先见到的那两个人——我们的父母，会在人生旅途中一直陪伴着我们。</q></div>
+
+    <div class="step slide" data-x="1000" data-y="-1500"><q font-size:20px>很遗憾，事实并非如此。他们会在某个车站下车，留下我们，孤独无助。他们的爱、他们的情、他们不可替代的陪伴，再也无从寻找。</q></div>
+
+    <div id="title" class="step" data-x="0" data-y="0" data-scale="4">尽管如此，还会有其他人上车。他们当中的一些人将对我们有着特殊的意义。他们之中有我们的兄弟姐妹, 有我们的亲朋好友。我们还将会体验千古不朽的爱情故事。</div>
+
+    
+    <div id="its" class="step" data-x="850" data-y="3000" data-rotate="90" data-scale="5">坐同一班车的人当中，有的轻松旅行。有的却带着深深的悲哀……还有的,在列车上四处奔忙，随时准备帮助有需要的人……很多人下车后，其他旅客对他们的回忆历久弥新… …但是，也有一些人，当他们离开座位时，却没有人察觉。</div>
+
+    <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+        <p>其实<b>我们</b> <span class="thoughts">真的</span></p>
+    </div>
+
+    <!--
+        
+        And now it gets really exciting! We move into third dimension!
+        
+        Along with `data-x` and `data-y`, you can define the position on third (Z) axis, with
+        `data-z`. In the example below we use `data-z="-3000"` meaning that element should be
+        positioned far away from us (by 3000px).
+        
+    -->
+    <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+        <p>非常的渺小</p>
+    </div>
+
+  
+    <div id="ing" class="step" data-x="3500" data-y="-850" data-rotate="270" data-scale="3">有时候，对你来说情深义重的旅伴却坐到了另一节车厢。你只得远离他，继续你的旅程。当然，在旅途中，你也可以摇摇晃晃地穿过自己的车厢，去别的车厢找他…… 可惜，你再也无法坐在他身旁，因为这个位置已经让别人给占了……</div>
+
+    <div id="imagination" class="step" data-x="6700" data-y="-300" data-scale="6">没关系。旅途充满挑战、梦想、希望、离别…… 就是不能回头。因此，尽量使旅途愉快吧！</div>
+
+    <div id="source" class="step" data-x="6300" data-y="3000" data-rotate="40" data-scale="4">善待旅途上遇见的所有旅客，找出人们身上的闪光点。永远记住，在某一段旅程中，有人会犹豫彷徨，因为我们自己也会犹豫彷徨。我们要理解他人，因为我们需要他人的理解。</div>
+
+    <div id="one-more-thing" class="step" data-x="6000" data-y="5000" data-scale="3">生命之谜就是：我们在什么地方下车？坐在身旁的伴侣在什么地方下车？我们的朋友在什么地方下车？我们无从知晓……</div>
+
+    <div id="impress" class="step" data-x="6200" data-y="6000" data-z="-100" data-rotate-x="-60" data-rotate-y="10" data-scale="2">我时常这样想：到我该下车的时候，我会留恋吗？我想我还是会的。和我的朋友分离，我会痛苦。让我的孩子孤独地前行，我会悲伤。我执著地希望在我们大家都要到达的那个终点站，我们还会相聚……</div>
+    
+   <div class="step" data-x="10000" date-y="6000" data-z="300" date-rotate-x="60" data-rotate-y="-45" data-scale="4"> 我的孩子们上车时没有什么行李，如果我能在他们的行囊中留下美好的回忆，我会感到幸福。我下车后，和我同行的旅客都还能记得我，想念我，我将感到快慰。</div>
+   
+ <div class="step" data-x="20000" date-y="8000" data-z="500" date-rotate-x="90" data-rotate-y="-65" data-scale="4">谢谢观赏。<br/>作者：亦可</div>
+ 
+ <div class="step" data-x="20000" date-y="8000" data-z="-10000" date-rotate-x="90" data-rotate-y="-65" data-scale="4">欢迎交流<br/>QQ:2515453626<br/>微信:WMDWX2956</div>
+ <div class="step" data-x="-10000" date-y="2000" date-z="-5000"  date-rotate-x="180" data-rotate-y="-90" data-scale="4"><a href="# "  target="_self">查看更多</a><a href="https://github.com/yutayouguan/TheWeb3D" target="_self">Github</a>
+   </div>
+    
+   
+    
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10"> 
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>轻按左右键或空格键进行导航</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>轻按左右键或空格键进行导航</p>";
+}
+</script>
+
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+<script>
+var video = document.getElementById("bgvideo");
+video.addEventListener('touchstart', function(e) {
+e.preventDefault();
+video.play();
+});
+</script>
+
+
+</body>
+</html>
+
